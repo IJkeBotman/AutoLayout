@@ -12,6 +12,11 @@
 		0AD0EBEA20B2F42B00433EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD0EBE820B2F42B00433EB5 /* Main.storyboard */; };
 		0AD0EBEC20B2F42C00433EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD0EBEB20B2F42C00433EB5 /* Assets.xcassets */; };
 		0AD0EBEF20B2F42C00433EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD0EBED20B2F42C00433EB5 /* LaunchScreen.storyboard */; };
+		0AD0EBF720B31EA400433EB5 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0EBF620B31EA400433EB5 /* SwipingController.swift */; };
+		0AD0EBF920B4068E00433EB5 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0EBF820B4068E00433EB5 /* PageCell.swift */; };
+		0AD0EBFB20B40B8300433EB5 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0EBFA20B40B8300433EB5 /* Page.swift */; };
+		0AD0EBFD20B418EA00433EB5 /* SwipingController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0EBFC20B418EA00433EB5 /* SwipingController+Extension.swift */; };
+		0AD0EBFF20B4195A00433EB5 /* SwipingController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0EBFE20B4195A00433EB5 /* SwipingController+UICollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		0AD0EBEB20B2F42C00433EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AD0EBEE20B2F42C00433EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AD0EBF020B2F42C00433EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD0EBF620B31EA400433EB5 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		0AD0EBF820B4068E00433EB5 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		0AD0EBFA20B40B8300433EB5 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		0AD0EBFC20B418EA00433EB5 /* SwipingController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+Extension.swift"; sourceTree = "<group>"; };
+		0AD0EBFE20B4195A00433EB5 /* SwipingController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+UICollectionView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 				0AD0EBE620B2F42B00433EB5 /* ViewController.swift */,
 				0AD0EBE820B2F42B00433EB5 /* Main.storyboard */,
 				0AD0EBEB20B2F42C00433EB5 /* Assets.xcassets */,
+				0AD0EBF620B31EA400433EB5 /* SwipingController.swift */,
+				0AD0EBFC20B418EA00433EB5 /* SwipingController+Extension.swift */,
+				0AD0EBFE20B4195A00433EB5 /* SwipingController+UICollectionView.swift */,
+				0AD0EBF820B4068E00433EB5 /* PageCell.swift */,
 				0AD0EBED20B2F42C00433EB5 /* LaunchScreen.storyboard */,
 				0AD0EBF020B2F42C00433EB5 /* Info.plist */,
+				0AD0EBFA20B40B8300433EB5 /* Page.swift */,
 			);
 			path = AutoLayout;
 			sourceTree = "<group>";
@@ -137,6 +152,11 @@
 			files = (
 				0AD0EBE720B2F42B00433EB5 /* ViewController.swift in Sources */,
 				0AD0EBE520B2F42B00433EB5 /* AppDelegate.swift in Sources */,
+				0AD0EBF920B4068E00433EB5 /* PageCell.swift in Sources */,
+				0AD0EBFF20B4195A00433EB5 /* SwipingController+UICollectionView.swift in Sources */,
+				0AD0EBFD20B418EA00433EB5 /* SwipingController+Extension.swift in Sources */,
+				0AD0EBF720B31EA400433EB5 /* SwipingController.swift in Sources */,
+				0AD0EBFB20B40B8300433EB5 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
